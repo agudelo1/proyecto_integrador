@@ -1,0 +1,18 @@
+# Archivos de configuración locales (por ejemplo, archivos .env)
+.env
+
+# Dependencias de Node.js (directorio node_modules)
+node_modules/
+
+# Archivos de compilación (por ejemplo, archivos generados por Webpack o Babel)
+dist/
+build/
+config.js/
+
+# Archivos de registro y datos temporales
+*.log
+*.tmp
+
+# Archivos de IDE y editor (por ejemplo, archivos creados por Visual Studio Code o IntelliJ)
+.vscode/
+.idea/
