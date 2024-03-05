@@ -7,7 +7,7 @@ node_modules/
 # Archivos de compilación (por ejemplo, archivos generados por Webpack o Babel)
 dist/
 build/
-config.js/
+./config.js
 
 # Archivos de registro y datos temporales
 *.log
