@@ -5,6 +5,7 @@ import * as productsController from "../controllers/products.controller"
 import {authJwt} from "../middleware"
 
 
+//Rutas
 
 router.post("/", [authJwt.verifyToken , authJwt.isAdmin],productsController.createProduct)
 
