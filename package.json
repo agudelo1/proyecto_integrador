@@ -5,7 +5,7 @@
   "scripts": {
     "build": "babel src --out-dir build",
     "dev": "nodemon src/index.js --exec babel-node",
-    "start":"node build/index.js"
+    "start": "node build/index.js"
   },
   "repository": "https://github.com/agudelo1/proyecto_integrador.git",
   "author": "Cristian Agudelo",
@@ -13,6 +13,7 @@
   "dependencies": {
     "bcrypt": "^5.1.1",
     "bcryptjs": "^2.4.3",
+    "cookie": "^0.6.0",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.18.2",
@@ -21,7 +22,9 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.2.0",
     "morgan": "^1.10.0",
-    "nodemon": "^3.1.0"
+    "nodemon": "^3.1.0",
+    "resend": "^3.2.0",
+    "sass": "^1.72.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.23.9",
